@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fresh havest box</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="scss/bootstrap.css">
+  <link rel="stylesheet" href="./fonts/static/DMSans_24pt-Light.ttf">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <section class="container-fluid hero-section">
+    <nav class="navbar fixed-top bg-white ">
+      <div class="container-fluid position-relative">
+        <div class="d-none d-md-block">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link .d-sm-none .d-md-block" href="#">Fruits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+
+        <a class="navbar-brand" href="#">
+          <p class="d-flex justify-content-center align-items-center">
+          <svg style="margin-right:8px;"xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path
+              d="M14.5411 0.156924H12.5364C11.9178 0.156924 11.4163 0.648347 11.4163 1.25459V3.21923C11.4163 3.82547 11.9178 4.31692 12.5364 4.31692H14.5411C15.1597 4.31692 15.6612 3.82547 15.6612 3.21923V1.25459C15.6612 0.648347 15.1597 0.156924 14.5411 0.156924Z"
+              fill="#AE1332" />
+            <path
+              d="M3.36519 11.52H1.20624C0.540049 11.52 0 12.0115 0 12.6177V14.5823C0 15.1886 0.540049 15.68 1.20624 15.68H3.36519C4.03138 15.68 4.57143 15.1886 4.57143 14.5823V12.6177C4.57143 12.0115 4.03138 11.52 3.36519 11.52Z"
+              fill="#AE1332" />
+            <path
+              d="M3.1248 5.79091H1.12007C0.501486 5.79091 0 6.28233 0 6.88857V8.85321C0 9.45945 0.501599 9.95091 1.12018 9.95091H3.1248C3.74341 9.95091 4.2449 9.45945 4.2449 8.85321V6.88857C4.2449 6.28233 3.74341 5.79091 3.1248 5.79091Z"
+              fill="#AE1332" />
+            <path
+              d="M8.88295 11.4891H6.87822C6.25964 11.4891 5.75815 11.9805 5.75815 12.5868L5.75804 14.5514C5.75804 15.1576 6.25975 15.6491 6.87833 15.6491H8.88295C9.50157 15.6491 10.0031 15.1576 10.0031 14.5514V12.5868C10.0031 11.9805 9.50157 11.4891 8.88295 11.4891Z"
+              fill="#AE1332" />
+            <path
+              d="M3.1248 0.0431361H1.12007C0.501486 0.0431361 0 0.534559 0 1.1408V3.10544C0 3.71168 0.501599 4.20314 1.12018 4.20314H3.1248C3.74341 4.20314 4.2449 3.71168 4.2449 3.10544V1.1408C4.2449 0.534559 3.74341 0.0431361 3.1248 0.0431361Z"
+              fill="#AE1332" />
+            <path
+              d="M9.03794 5.84874H7.03321C6.41463 5.84874 5.91314 6.34016 5.91314 6.9464V8.91104C5.91314 9.51728 6.41474 10.0087 7.03332 10.0087H9.03794C9.65655 10.0087 10.158 9.51728 10.158 8.91104V6.9464C10.158 6.34016 9.65655 5.84874 9.03794 5.84874Z"
+              fill="#AE1332" />
+            <path
+              d="M14.6667 11.4891H12.6619C12.0434 11.4891 11.5419 11.9805 11.5419 12.5868V14.5514C11.5419 15.1576 12.0435 15.6491 12.662 15.6491H14.6667C15.2853 15.6491 15.7868 15.1576 15.7868 14.5514V12.5868C15.7868 11.9805 15.2853 11.4891 14.6667 11.4891Z"
+              fill="#AE1332" />
+            <path
+              d="M8.7953 0.111854H6.79056C6.17198 0.111854 5.6705 0.603277 5.6705 1.20952V3.17416C5.6705 3.7804 6.1721 4.27185 6.79068 4.27185H8.7953C9.41391 4.27185 9.91539 3.78003 9.91539 3.17379V1.20952C9.91539 0.603277 9.41391 0.111854 8.7953 0.111854Z"
+              fill="#AE1332" />
+            <path
+              d="M14.5219 5.96291H12.5171C11.8985 5.96291 11.3971 6.45433 11.3971 7.06057V9.02521C11.3971 9.63145 11.8987 10.1229 12.5172 10.1229H14.5219C15.1405 10.1229 15.642 9.63145 15.642 9.02521V7.06057C15.642 6.45433 15.1405 5.96291 14.5219 5.96291Z"
+              fill="#AE1332" />
+          </svg>
+
+          FRESH HARVEST BOX</p>
+        </a>
+        <div class="d-none d-md-inline">
+          <ul class="nav">
+            <li class="nav-item  ">
+                <button type="button" id="button" class="bg-white"style="border: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                  <path
+                    d="M22.1667 8.16659H18.6667V6.99992C18.6667 5.76224 18.175 4.57526 17.2998 3.70009C16.4247 2.82492 15.2377 2.33325 14 2.33325C12.7623 2.33325 11.5754 2.82492 10.7002 3.70009C9.82502 4.57526 9.33335 5.76224 9.33335 6.99992V8.16659H5.83335C5.52393 8.16659 5.22719 8.2895 5.0084 8.50829C4.7896 8.72709 4.66669 9.02383 4.66669 9.33325V22.1666C4.66669 23.0948 5.03544 23.9851 5.69181 24.6415C6.34819 25.2978 7.23843 25.6666 8.16669 25.6666H19.8333C20.7616 25.6666 21.6518 25.2978 22.3082 24.6415C22.9646 23.9851 23.3333 23.0948 23.3333 22.1666V9.33325C23.3333 9.02383 23.2104 8.72709 22.9916 8.50829C22.7728 8.2895 22.4761 8.16659 22.1667 8.16659ZM11.6667 6.99992C11.6667 6.38108 11.9125 5.78759 12.3501 5.35C12.7877 4.91242 13.3812 4.66659 14 4.66659C14.6189 4.66659 15.2123 4.91242 15.6499 5.35C16.0875 5.78759 16.3333 6.38108 16.3333 6.99992V8.16659H11.6667V6.99992ZM21 22.1666C21 22.476 20.8771 22.7728 20.6583 22.9915C20.4395 23.2103 20.1428 23.3333 19.8333 23.3333H8.16669C7.85727 23.3333 7.56052 23.2103 7.34173 22.9915C7.12294 22.7728 7.00002 22.476 7.00002 22.1666V10.4999H9.33335V11.6666C9.33335 11.976 9.45627 12.2728 9.67506 12.4915C9.89385 12.7103 10.1906 12.8333 10.5 12.8333C10.8094 12.8333 11.1062 12.7103 11.325 12.4915C11.5438 12.2728 11.6667 11.976 11.6667 11.6666V10.4999H16.3333V11.6666C16.3333 11.976 16.4563 12.2728 16.6751 12.4915C16.8938 12.7103 17.1906 12.8333 17.5 12.8333C17.8094 12.8333 18.1062 12.7103 18.325 12.4915C18.5438 12.2728 18.6667 11.976 18.6667 11.6666V10.4999H21V22.1666Z"
+                    fill="#AE1332" />
+                </svg>
+                </button>
+            </li>
+          </ul>
+        </div>
+
+
+
+        <div class="d-md-none">
+          <li class="nav-item position-absolute top-10 end-5"style="list-style: none;"> <button type="button" class="menu-button bg-white" id="menu-button" style="border:none;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="14"
+                viewBox="0 0 20 14" fill="none">
+                <path
+                  d="M0 0.995C0 0.445 0.446 0 0.995 0H9.005C9.26889 7.86455e-09 9.52197 0.10483 9.70857 0.291429C9.89517 0.478027 10 0.731109 10 0.995C10 1.25889 9.89517 1.51197 9.70857 1.69857C9.52197 1.88517 9.26889 1.99 9.005 1.99H0.995C0.731109 1.99 0.478028 1.88517 0.291429 1.69857C0.10483 1.51197 0 1.25889 0 0.995ZM0 7C0 6.45 0.446 6.005 0.995 6.005H19.005C19.2689 6.005 19.522 6.10983 19.7086 6.29643C19.8952 6.48303 20 6.73611 20 7C20 7.26389 19.8952 7.51697 19.7086 7.70357C19.522 7.89017 19.2689 7.995 19.005 7.995H0.995C0.731109 7.995 0.478028 7.89017 0.291429 7.70357C0.10483 7.51697 0 7.26389 0 7ZM0.995 12.01C0.731109 12.01 0.478028 12.1148 0.291429 12.3014C0.10483 12.488 0 12.7411 0 13.005C0 13.2689 0.10483 13.522 0.291429 13.7086C0.478028 13.8952 0.731109 14 0.995 14H13.005C13.2689 14 13.522 13.8952 13.7086 13.7086C13.8952 13.522 14 13.2689 14 13.005C14 12.7411 13.8952 12.488 13.7086 12.3014C13.522 12.1148 13.2689 12.01 13.005 12.01H0.995Z"
+                  fill="#AE1332" />
+              </svg></button></li>
+        </div>
+       </div>
+      </nav>
+
+
+
+      <!-- mobile menu -->
+        <div class="menu-bg">
+          <div class="menu">
+            <button type="button" class="btn btn-close float-end me-3 mt-3" id="exit"></button>
+           
+                  
+       
+          </div>
+        </div>
+      <!-- MODAL -->
+      <!-- Full screen modal -->
+      <!-- <div class="modal-dialog modal-fullscreen-sm-down">
+        <div class="menu">
+          <nav class="navbar fixed-top bg-white ">
+            <div class="container-fluid position-relative">
+              <a class="navbar-brand" href="#">
+                <p class="d-flex justify-content-center align-items-center">
+                  <svg style="margin-right:8px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                    fill="none">
+                    <path
+                      d="M14.5411 0.156924H12.5364C11.9178 0.156924 11.4163 0.648347 11.4163 1.25459V3.21923C11.4163 3.82547 11.9178 4.31692 12.5364 4.31692H14.5411C15.1597 4.31692 15.6612 3.82547 15.6612 3.21923V1.25459C15.6612 0.648347 15.1597 0.156924 14.5411 0.156924Z"
+                      fill="#AE1332" />
+                    <path
+                      d="M3.36519 11.52H1.20624C0.540049 11.52 0 12.0115 0 12.6177V14.5823C0 15.1886 0.540049 15.68 1.20624 15.68H3.36519C4.03138 15.68 4.57143 15.1886 4.57143 14.5823V12.6177C4.57143 12.0115 4.03138 11.52 3.36519 11.52Z"
+                      fill="#AE1332" />
+                    <path
+                      d="M3.1248 5.79091H1.12007C0.501486 5.79091 0 6.28233 0 6.88857V8.85321C0 9.45945 0.501599 9.95091 1.12018 9.95091H3.1248C3.74341 9.95091 4.2449 9.45945 4.2449 8.85321V6.88857C4.2449 6.28233 3.74341 5.79091 3.1248 5.79091Z"
+                      fill="#AE1332" />
+                    <path
+                      d="M8.88295 11.4891H6.87822C6.25964 11.4891 5.75815 11.9805 5.75815 12.5868L5.75804 14.5514C5.75804 15.1576 6.25975 15.6491 6.87833 15.6491H8.88295C9.50157 15.6491 10.0031 15.1576 10.0031 14.5514V12.5868C10.0031 11.9805 9.50157 11.4891 8.88295 11.4891Z"
+                      fill="#AE1332" />
+                    <path
+                      d="M3.1248 0.0431361H1.12007C0.501486 0.0431361 0 0.534559 0 1.1408V3.10544C0 3.71168 0.501599 4.20314 1.12018 4.20314H3.1248C3.74341 4.20314 4.2449 3.71168 4.2449 3.10544V1.1408C4.2449 0.534559 3.74341 0.0431361 3.1248 0.0431361Z"
+                      fill="#AE1332" />
+                    <path
+                      d="M9.03794 5.84874H7.03321C6.41463 5.84874 5.91314 6.34016 5.91314 6.9464V8.91104C5.91314 9.51728 6.41474 10.0087 7.03332 10.0087H9.03794C9.65655 10.0087 10.158 9.51728 10.158 8.91104V6.9464C10.158 6.34016 9.65655 5.84874 9.03794 5.84874Z"
+                      fill="#AE1332" />
+                    <path
+                      d="M14.6667 11.4891H12.6619C12.0434 11.4891 11.5419 11.9805 11.5419 12.5868V14.5514C11.5419 15.1576 12.0435 15.6491 12.662 15.6491H14.6667C15.2853 15.6491 15.7868 15.1576 15.7868 14.5514V12.5868C15.7868 11.9805 15.2853 11.4891 14.6667 11.4891Z"
+                      fill="#AE1332" />
+                    <path
+                      d="M8.7953 0.111854H6.79056C6.17198 0.111854 5.6705 0.603277 5.6705 1.20952V3.17416C5.6705 3.7804 6.1721 4.27185 6.79068 4.27185H8.7953C9.41391 4.27185 9.91539 3.78003 9.91539 3.17379V1.20952C9.91539 0.603277 9.41391 0.111854 8.7953 0.111854Z"
+                      fill="#AE1332" />
+                    <path
+                      d="M14.5219 5.96291H12.5171C11.8985 5.96291 11.3971 6.45433 11.3971 7.06057V9.02521C11.3971 9.63145 11.8987 10.1229 12.5172 10.1229H14.5219C15.1405 10.1229 15.642 9.63145 15.642 9.02521V7.06057C15.642 6.45433 15.1405 5.96291 14.5219 5.96291Z"
+                      fill="#AE1332" />
+                  </svg>
+        
+                  FRESH HARVEST BOX
+                </p>
+              </a>
+              <button type="button" id="close-menu"
+                class="btn btn-close float-end me-3 mt-3 position-absolute bottom-50 end-0"></button>
+            </div>
+          </nav>
+        
+          <div class="menu-container ">
+            <div class=" d-flex justify-content-center">
+              <div class="col justify-content-center mt-5">
+                <div class="row "> <a href=""> How It Works</a></div>
+                <div class="row">Fruiuts</div>
+                <div class="row">Contacts</div>
+                <div class="row"><button type="button" id="button" class="bg-primary" style="border: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                      <path
+                        d="M22.1667 8.16659H18.6667V6.99992C18.6667 5.76224 18.175 4.57526 17.2998 3.70009C16.4247 2.82492 15.2377 2.33325 14 2.33325C12.7623 2.33325 11.5754 2.82492 10.7002 3.70009C9.82502 4.57526 9.33335 5.76224 9.33335 6.99992V8.16659H5.83335C5.52393 8.16659 5.22719 8.2895 5.0084 8.50829C4.7896 8.72709 4.66669 9.02383 4.66669 9.33325V22.1666C4.66669 23.0948 5.03544 23.9851 5.69181 24.6415C6.34819 25.2978 7.23843 25.6666 8.16669 25.6666H19.8333C20.7616 25.6666 21.6518 25.2978 22.3082 24.6415C22.9646 23.9851 23.3333 23.0948 23.3333 22.1666V9.33325C23.3333 9.02383 23.2104 8.72709 22.9916 8.50829C22.7728 8.2895 22.4761 8.16659 22.1667 8.16659ZM11.6667 6.99992C11.6667 6.38108 11.9125 5.78759 12.3501 5.35C12.7877 4.91242 13.3812 4.66659 14 4.66659C14.6189 4.66659 15.2123 4.91242 15.6499 5.35C16.0875 5.78759 16.3333 6.38108 16.3333 6.99992V8.16659H11.6667V6.99992ZM21 22.1666C21 22.476 20.8771 22.7728 20.6583 22.9915C20.4395 23.2103 20.1428 23.3333 19.8333 23.3333H8.16669C7.85727 23.3333 7.56052 23.2103 7.34173 22.9915C7.12294 22.7728 7.00002 22.476 7.00002 22.1666V10.4999H9.33335V11.6666C9.33335 11.976 9.45627 12.2728 9.67506 12.4915C9.89385 12.7103 10.1906 12.8333 10.5 12.8333C10.8094 12.8333 11.1062 12.7103 11.325 12.4915C11.5438 12.2728 11.6667 11.976 11.6667 11.6666V10.4999H16.3333V11.6666C16.3333 11.976 16.4563 12.2728 16.6751 12.4915C16.8938 12.7103 17.1906 12.8333 17.5 12.8333C17.8094 12.8333 18.1062 12.7103 18.325 12.4915C18.5438 12.2728 18.6667 11.976 18.6667 11.6666V10.4999H21V22.1666Z"
+                        fill="white" />
+                    </svg>
+                  </button></div>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+      </div> -->
+<!-- *************************************** NAVBAR menu for mobile ****************************-->
+<!-- <div class="menu">
+  <nav class="navbar fixed-top bg-white ">
+    <div class="container-fluid position-relative">
+      <a class="navbar-brand" href="#">
+        <p class="">
+          <svg style="margin-right:8px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+            fill="none">
+            <path
+              d="M14.5411 0.156924H12.5364C11.9178 0.156924 11.4163 0.648347 11.4163 1.25459V3.21923C11.4163 3.82547 11.9178 4.31692 12.5364 4.31692H14.5411C15.1597 4.31692 15.6612 3.82547 15.6612 3.21923V1.25459C15.6612 0.648347 15.1597 0.156924 14.5411 0.156924Z"
+              fill="#AE1332" />
+            <path
+              d="M3.36519 11.52H1.20624C0.540049 11.52 0 12.0115 0 12.6177V14.5823C0 15.1886 0.540049 15.68 1.20624 15.68H3.36519C4.03138 15.68 4.57143 15.1886 4.57143 14.5823V12.6177C4.57143 12.0115 4.03138 11.52 3.36519 11.52Z"
+              fill="#AE1332" />
+            <path
+              d="M3.1248 5.79091H1.12007C0.501486 5.79091 0 6.28233 0 6.88857V8.85321C0 9.45945 0.501599 9.95091 1.12018 9.95091H3.1248C3.74341 9.95091 4.2449 9.45945 4.2449 8.85321V6.88857C4.2449 6.28233 3.74341 5.79091 3.1248 5.79091Z"
+              fill="#AE1332" />
+            <path
+              d="M8.88295 11.4891H6.87822C6.25964 11.4891 5.75815 11.9805 5.75815 12.5868L5.75804 14.5514C5.75804 15.1576 6.25975 15.6491 6.87833 15.6491H8.88295C9.50157 15.6491 10.0031 15.1576 10.0031 14.5514V12.5868C10.0031 11.9805 9.50157 11.4891 8.88295 11.4891Z"
+              fill="#AE1332" />
+            <path
+              d="M3.1248 0.0431361H1.12007C0.501486 0.0431361 0 0.534559 0 1.1408V3.10544C0 3.71168 0.501599 4.20314 1.12018 4.20314H3.1248C3.74341 4.20314 4.2449 3.71168 4.2449 3.10544V1.1408C4.2449 0.534559 3.74341 0.0431361 3.1248 0.0431361Z"
+              fill="#AE1332" />
+            <path
+              d="M9.03794 5.84874H7.03321C6.41463 5.84874 5.91314 6.34016 5.91314 6.9464V8.91104C5.91314 9.51728 6.41474 10.0087 7.03332 10.0087H9.03794C9.65655 10.0087 10.158 9.51728 10.158 8.91104V6.9464C10.158 6.34016 9.65655 5.84874 9.03794 5.84874Z"
+              fill="#AE1332" />
+            <path
+              d="M14.6667 11.4891H12.6619C12.0434 11.4891 11.5419 11.9805 11.5419 12.5868V14.5514C11.5419 15.1576 12.0435 15.6491 12.662 15.6491H14.6667C15.2853 15.6491 15.7868 15.1576 15.7868 14.5514V12.5868C15.7868 11.9805 15.2853 11.4891 14.6667 11.4891Z"
+              fill="#AE1332" />
+            <path
+              d="M8.7953 0.111854H6.79056C6.17198 0.111854 5.6705 0.603277 5.6705 1.20952V3.17416C5.6705 3.7804 6.1721 4.27185 6.79068 4.27185H8.7953C9.41391 4.27185 9.91539 3.78003 9.91539 3.17379V1.20952C9.91539 0.603277 9.41391 0.111854 8.7953 0.111854Z"
+              fill="#AE1332" />
+            <path
+              d="M14.5219 5.96291H12.5171C11.8985 5.96291 11.3971 6.45433 11.3971 7.06057V9.02521C11.3971 9.63145 11.8987 10.1229 12.5172 10.1229H14.5219C15.1405 10.1229 15.642 9.63145 15.642 9.02521V7.06057C15.642 6.45433 15.1405 5.96291 14.5219 5.96291Z"
+              fill="#AE1332" />
+          </svg>
+
+          FRESH HARVEST BOX
+        </p>
+      </a>
+      <button type="button" id="close-menu"
+        class="btn btn-close float-end me-3 mt-3 position-absolute bottom-50 end-0"></button>
+    </div>
+  </nav>
+
+  <div class="menu-container ">
+    <div class=" d-flex justify-content-center">
+      <div class="col justify-content-center mt-5">
+        <div class="row "> <a href="" class=""> How It Works</a></div>
+        <div class="row "><a href="" class="">Fruits</a></div>
+        <div class="row"><a href="" class="text-white">Contacts</a></div>
+        <div class="row"><button type="button" id="button" class="bg-primary" style="border: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path
+                d="M22.1667 8.16659H18.6667V6.99992C18.6667 5.76224 18.175 4.57526 17.2998 3.70009C16.4247 2.82492 15.2377 2.33325 14 2.33325C12.7623 2.33325 11.5754 2.82492 10.7002 3.70009C9.82502 4.57526 9.33335 5.76224 9.33335 6.99992V8.16659H5.83335C5.52393 8.16659 5.22719 8.2895 5.0084 8.50829C4.7896 8.72709 4.66669 9.02383 4.66669 9.33325V22.1666C4.66669 23.0948 5.03544 23.9851 5.69181 24.6415C6.34819 25.2978 7.23843 25.6666 8.16669 25.6666H19.8333C20.7616 25.6666 21.6518 25.2978 22.3082 24.6415C22.9646 23.9851 23.3333 23.0948 23.3333 22.1666V9.33325C23.3333 9.02383 23.2104 8.72709 22.9916 8.50829C22.7728 8.2895 22.4761 8.16659 22.1667 8.16659ZM11.6667 6.99992C11.6667 6.38108 11.9125 5.78759 12.3501 5.35C12.7877 4.91242 13.3812 4.66659 14 4.66659C14.6189 4.66659 15.2123 4.91242 15.6499 5.35C16.0875 5.78759 16.3333 6.38108 16.3333 6.99992V8.16659H11.6667V6.99992ZM21 22.1666C21 22.476 20.8771 22.7728 20.6583 22.9915C20.4395 23.2103 20.1428 23.3333 19.8333 23.3333H8.16669C7.85727 23.3333 7.56052 23.2103 7.34173 22.9915C7.12294 22.7728 7.00002 22.476 7.00002 22.1666V10.4999H9.33335V11.6666C9.33335 11.976 9.45627 12.2728 9.67506 12.4915C9.89385 12.7103 10.1906 12.8333 10.5 12.8333C10.8094 12.8333 11.1062 12.7103 11.325 12.4915C11.5438 12.2728 11.6667 11.976 11.6667 11.6666V10.4999H16.3333V11.6666C16.3333 11.976 16.4563 12.2728 16.6751 12.4915C16.8938 12.7103 17.1906 12.8333 17.5 12.8333C17.8094 12.8333 18.1062 12.7103 18.325 12.4915C18.5438 12.2728 18.6667 11.976 18.6667 11.6666V10.4999H21V22.1666Z"
+                fill="white" />
+            </svg>
+          </button></div>
+      </div>
+
+    </div>
+  </div>
+</div> -->
+<!-- -********************************END OF NAVBAR MENU ********************************************* -->
+     
+     
+     
+    <div class="p-3 mb-2 bg-primary text-white">
+      <div class="container ms-5 me-5 maincontainer">
+        
+
+        <div class="position-relative">
+          <!-- <div class="position-absolute top-10 end-15 "><img class="strawberry" src="./image/strawberry-bg.png" alt="">
+          </div>
+          <!-- <div class="position-absolute end-68"><img class="banana" src="./image/banana.png" alt=""></div> -->
+          <div class="position-absolute  start-30"> <img class="girl"
+              src="./image/young-energetic-red-haired-woman-white-t-shirt-holding-tasty-oranges-pink-background 1.png"
+              alt=""></div>
+          <div class="position-absolute  start-28 oval-line">
+            <svg xmlns="http://www.w3.org/2000/svg" width="536" height="832" viewBox="0 0 486 762" fill="none">
+              <mask id="path-1-inside-1_5503_35" fill="white">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M485 499V243C485 109.347 376.653 1 243 1C109.347 1 1 109.347 1 243V499C1 632.653 109.347 741 243 741C376.653 741 485 632.653 485 499ZM243 0C108.795 0 0 108.795 0 243V499C0 633.205 108.795 742 243 742C377.205 742 486 633.205 486 499V243C486 108.795 377.205 0 243 0Z" />
+              </mask>
+              <path
+                d="M486 499V243H484V499H486ZM486 243C486 108.795 377.205 0 243 0V2C376.101 2 484 109.899 484 243H486ZM243 0C108.795 0 0 108.795 0 243H2C2 109.899 109.899 2 243 2V0ZM0 243V499H2V243H0ZM0 499C0 633.205 108.795 742 243 742V740C109.899 740 2 632.101 2 499H0ZM243 742C377.205 742 486 633.205 486 499H484C484 632.101 376.101 740 243 740V742ZM243 -1C108.243 -1 -1 108.243 -1 243H1C1 109.347 109.347 1 243 1V-1ZM-1 243V499H1V243H-1ZM-1 499C-1 633.757 108.243 743 243 743V741C109.347 741 1 632.653 1 499H-1ZM243 743C377.757 743 487 633.757 487 499H485C485 632.653 376.653 741 243 741V743ZM487 499V243H485V499H487ZM487 243C487 108.243 377.757 -1 243 -1V1C376.653 1 485 109.347 485 243H487Z"
+                fill="url(#paint0_linear_5503_35)" mask="url(#path-1-inside-1_5503_35)" />
+              <defs>
+                <linearGradient id="paint0_linear_5503_35" x1="258" y1="755" x2="257" y2="171"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="0.411317" stop-color="white" stop-opacity="0.441769" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div> 
+          
+          <div class="position-absolute top-0 start-15">
+            <h1 class="text-center text-white title fw-bolder lh-1">FRESH HARVEST BOX <br> IS YOUR ONE-STEP PLACE FOR <br>
+              A DELICIOUS FRUIT BASKET</h1>
+          </div>
+          <div class="position-absolute top-30 start-45"><button class="shop-button fw-bolder">SHOP NOW</button></div>
+          <div class="container-fluid">
+            <div class="position-absolute end-85 fw-lighter ">
+              <p class="subtitle fw-light">
+                Our expertly curated fruit baskets are made with the freshest, highest quality fruits available. Whether
+                you are looking
+                for a healthy snack or a gift for a loved one, Fresh Harvest Box has got you covered.
+                
+            </div>
+            
+             <!-- ********************************green oval*************************************************** --> -->
+            <div class="position-absolute start-0 green-container bg-secondary">
+              <p class=" position-absolute top-8 start-43 fw-light fruit ">Fruit</p>
+              <div class="position-absolute top-25 start-10"><img class="watermelon"
+                  src="./image/watermelon.png" alt="">
+              </div>
+              <div class="position-absolute top-50 start-10"><svg xmlns="http://www.w3.org/2000/svg" width="249"
+                  height="94" viewBox="0 0 249 94" fill="none">
+                  <g opacity="0.1" filter="url(#filter0_f_4_241)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M124.5 66C190.498 66 244 57.4934 244 47C244 36.5066 190.498 28 124.5 28C58.502 28 5 36.5066 5 47C5 57.4934 58.502 66 124.5 66Z"
+                      fill="black" />
+                  </g>
+                  <defs>
+                    <filter id="filter0_f_4_241" x="-22.1828" y="0.817183" width="293.366" height="92.3656"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feGaussianBlur stdDeviation="13.5914" result="effect1_foregroundBlur_4_241" />
+                    </filter>
+                  </defs>
+                </svg></div>
+              <div class="position-absolute top-70 start-17">
+                <p class=" watermelon-p text-center">Refreshing and juicy, watermelon is the perfect summer treat and a
+                  great source of hydration</p>
+              </div>
+            </div>
+            <!-- *********************************yellow oval****************************************************************************** -->
+            <div class="position-absolute start-85 yellow-container bg-success">
+              <p class=" position-absolute top-8 start-43 fw-light fruit ">Fruit</p>
+              <div class="position-absolute top-17 start-20"><img class="strawberry-b"
+                  src="./image/kisspng-strawberry-basket-food-basket-5abcb2e34c9249 1.png" alt=""></div>
+              <div class=" position-absolute top-50"><svg xmlns="http://www.w3.org/2000/svg" width="249" height="94"
+                  viewBox="0 0 249 94" fill="none">
+                  <g opacity="0.1" filter="url(#filter0_f_4_204)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M129.5 66C195.498 66 249 57.4934 249 47C249 36.5066 195.498 28 129.5 28C63.502 28 10 36.5066 10 47C10 57.4934 63.502 66 129.5 66Z"
+                      fill="black" />
+                  </g>
+                  <defs>
+                    <filter id="filter0_f_4_204" x="-17.1828" y="0.817183" width="293.366" height="92.3656"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feGaussianBlur stdDeviation="13.5914" result="effect1_foregroundBlur_4_204" />
+                    </filter>
+                  </defs>
+                </svg></div>
+              <div class="position-absolute top-68 start-17">
+                <p class="strawberry-p">Sweet and juicy, strawberries are packed with vitamin C and antioxidants, making
+                  them a delicious and healthy snack</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+
+        <div class=" float-end">
+          <div class=" buttons1  p-2 "><button type="button"
+              class="organic d-inline  d-inline  ">  #ORGANIC</button>
+
+              <button type="button" class="organic d-inline  d-inline  ms-2">#PRODUCTS</button>
+            </div>
+          <div class=" buttons2  position-absolute end-5">
+            <button type="button" class=" organic  d-inline p-2"style="height: 38px; width: 115px;"> #BASKET</button>
+            <button type="button" class="organic  d-inline p-2 ms-2 " style="height: 38px; width: 110px;"> #FRUITS</button>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    
+    </div>
+    </div>
+  </section>
+
+
+  <!-- ***************************************POP UP******************************************* -->
+  <div class="bg-modal">
+  <div class="content">
+    <button type="button" class="btn btn-close float-end me-3 mt-3" id="btn-close"></button>
+<h2 class="text-primary ms-5 mt-5"> YOUR ORDER</h2>
+<div class="container-fluid d-flex-column">
+  <div class="row row-cols-1 row-cols-md-3 g-3 mt-4 me-4 ms-4">
+  
+    <div class="col ">
+      <div class="card bg-info text-white strawberry-basket" style="width: 257px; height: 308px;">
+        <div class="form-check">
+          <input class="form-check-input border-white bg-transparent position-absolute  top-5 end-5" type="checkbox" value="" id="flexCheckDefault">
+        </div>
+        <div class="card-img-overlay ">
+          <div class="mb-5 pb-5">
+          <h5 class="card-title fw-bold ps-4">Strawberry Basket</h5>
+          <p class="plant ps-4 pb-5 mb-5"style="font-size: 14px;" style="font-size: 14px;"><small>Plant</small>
+       </div>
+      </div>
+    </div>
+    </div>
+  
+    <div class="col">
+      <div class="card bg-warning text-white apple-basket " style="width: 257px;height: 308px;">
+      <div class="form-check">
+        <input class="form-check-input border-white bg-transparent position-absolute  top-5 end-5" type="checkbox" value=""
+          id="flexCheckDefault">
+      </div>
+       <div class="card-img-overlay">
+          <div class="mb-5 pb-5">
+          <h5 class="card-title fw-bold ps-4">Apple Basket </h5>
+          <p class="plant ps-4 pb-5 mb-5"style="font-size: 14px;"><small>Plant</small></p>
+        </div>
+     </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="card  bg-light text-white fruits-basket" style="width: 257px; height: 308px; ">
+        <div class="form-check">
+          <input class="form-check-input border-white bg-transparent position-absolute  top-5 end-5" type="checkbox" value=""
+            id="flexCheckDefault">
+        </div>
+        <div class="card-img-overlay">
+          <div class="mb-5 pb-5">
+          <h5 class="card-title fw-bold ps-4 ">Fruits Basket</h5>
+          <p class="plant ps-4 pb-5 mb-5"style="font-size: 14px;"><small>Plant</small></p>
+        </div>
+      </div>
+        </div>
+    </div>
+  </div>
+  <div class="order-form ms-4 mt-5" style="width: 360px;">
+    <form action="">
+      <input class="form-control " style="border: solid black 1px; " type="email" placeholder="Enter full name..."
+        aria-label="default input example">
+      <input class="form-control mt-3" style="border: solid black 1px;" type="email" placeholder="Enter email..."
+        aria-label="default input example">
+      <input class="form-control mt-3" style="border: solid black 1px;" type="number" placeholder="Card.."
+        aria-label="default input example">
+  
+      <textarea class="form-control mt-3" style="border: solid black 1px; border-radius: 20px;height: auto;"
+        placeholder="Enter comments..." id="exampleFormControlTextarea1" rows="4"></textarea>
+      <button type="submit" id="submit"class="btn btn-secondary text-white mt-4"
+        style="padding: 15px 35px; font-size: 14px;font-weight: 400;">Submit</button>
+    </form>
+  </div>
+  
+  <img src="./image/pop up main.png" class=" position-absolute start-49 top-50" alt="">
+  </div>
+  </div>
+  <div class="thankyou-content">
+    <button type="button" id="cross" class="btn btn-close float-end me-3 mt-3" ></button>
+    <h3 class="text-white text-center position-absolute top-65 start-38">THANK YOU</h3>
+    <p class=" thankyou-text  text-center position-absolute top-75 start-18" style="font-family: 'DM Sans', sans-serif; width: 391px;">Thank you for your order! Our team is preparing your box with fresh, delicious fruits and vegetables, and we'll deliver
+    it straight to your doorstep. We appreciate your business and look forward to providing you with the best possible
+    experience!</p>
+  </div>
+  </div>
+<!-- **********************************************************END OF POP UP******************************************************* -->
+<!-- Full screen modal
+<div class="modal-dialog modal-fullscreen">
+ Button trigger modal
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button>
+
+ Modal
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div> -->
+<!-- *************************************************start of thank you pop up*************************************************** -->
+
+
+  
+
+
+
+  <div class="container-fluid second-section">
+<div class="container-fluid d-flex-column">
+  <h2 class=" order-steps text-white text-center"> TO ORDER YOUR FRUIT BASKET,<br> SIMPLY FOLLOW THESE EASY STEPS</h2>
+<p class="text-white text-center  our-baskets">Our baskets are assembled with care and delivered straight to your doorstep, so you <br> can enjoy the taste of fresh fruit
+without ever leaving your home. Whether you're <br> looking for a healthy snack or a thoughtful gift, our fruit baskets are
+the perfect choice.</p><br>
+<div class="container-fluid d-flex-row">
+
+<div class="row row-cols-1 row-cols-md-3 g-3 ">
+  <div class="col ">
+  <div class="card" >
+  <div class="row g-5">
+    <div class="col-md-4">
+      <button type="button" class="btn btn-primary first-btn mt-3 ms-4">First Step</button>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <p class="card-text mb-5 ">Just choose the fruit you want to order by clicking on the checkboxes next to it.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="col">
+  <div class="card ">
+    <div class="row g-5">
+      <div class="col-md-4">
+        <button type="button" class="btn btn-secondary text-white first-btn mt-3 ms-4">Second Step</button>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+        <p class="card-text mb-5">Click on the basket and fill out the form.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col">
+  <div class="card mb-3">
+    <div class="row g-5">
+      <div class="col-md-4">
+        <button type="button" class="btn btn-success text-white first-btn mt-3 ms-4">Third Step</button>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-text mb-5" style="width: 199px;">Sit back and relax! Your fresh fruit basket will be delivered.</p>
+     </div>
+    </div>
+  </div>
+</div>
+ </div>
+
+ 
+
+</div>
+<div class="d-flex justify-content-center mt-5 pt-4">
+  <img class="gif" style="width: 75%; height: 50%; border-radius: 20px;"src="./image/fruits medium.gif" alt="">
+</div>
+</div>
+  </div>
+</div>
+
+
+  
+
+  <div class="container-fluid third-section ">
+    <h2 class="text-white text-center ">ORGANIC FRUITS</h2>
+    <p class=" our-baskets text-center text-white">Our organic fruits are hand-picked from local farms and delivered straight to your doorstep,<br> ensuring that you get the
+    freshest and most nutritious produce possible. We offer a wide <br> selection of organic fruits grown without the use of
+    harmful pesticides or chemicals.</p>
+    
+<div class="container-fluid d-flex-column">
+<div class="container-fluid d-flex-row">
+    <div class="row row-cols-1 row-cols-md-3 g-3 mt-4 ">
+
+            <div class="col ">
+              <div class=" card bg-info text-white card-media" style="width: 29rem; height: 36rem; transform: none;" >
+                  <div class="card-img-overlay ">
+                    <h2 class="card-title ps-5">Strawberry</h2>
+                  <p class="plant ps-5"><small>Plant</small>
+                  </div>
+                  <img class="strawberry-card ms-5 ps-3 "style="width: 80%;" src="./image/strawberry-card.png" class="card-img" alt="...">
+            
+                  <button type="button" class="btn btn-danger ">100 UAH / kg</button>
+              <!-- <a href="#" class="btn btn-danger"></a> -->
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card   bg-warning text-white card-media"style="width: 465px;height: 580px; transform" >
+                <div class="card-img-overlay">
+                  <h2 class="card-title ps-5">Banana</h2>
+                  <p class="plant ps-5"><small>Plant</small>
+                    </div>
+                    <img class="banana-card ms-4 ps-3"style="width: 80%;" src="./image/banana-card.png" class="card-img" alt="...">
+                    <a href="#" class="btn btn-danger">80 UAH / kg</a>
+               </div>
+            </div>
+
+            <div class="col">
+              <div class="card  bg-light text-white card-media"style="width: 465px;height: 580px;" >
+               
+                <div class="card-img-overlay">
+                  <h2 class="card-title ps-5">Watermelon</h2>
+                  <p class="plant ps-5"><small>Plant</small>
+                    </div>
+                    <img class="  ms-5 ps-3"style="width: 80%;" src="./image/watermelon-card.png" class="card-img" alt="...">
+                    <a href="#" class="btn btn-danger">40 UAH / kg</a>
+            
+                
+              </div>
+            </div>
+
+
+              <div class="col">
+                <div class="card  bg-dark text-white card-media" style="width: 465px;height: 580px;">
+     
+                  <div class="card-img-overlay">
+                    <h2 class="card-title ps-5">Lime</h2>
+                    <p class="plant ps-5"><small>Plant</small>
+                      </div>
+                                  <img class="strawberry-card  ms-4 ps-3" style="width: 80%;"src="./image/lime-card.png" class="card-img" alt="...">
+                      <a href="#" class="btn btn-danger">60 UAH / kg</a>
+              
+                 
+                </div>
+              </div>
+              
+              <div class="col ">
+                <div class="card  bg-tertiary text-white card-media " style="width: 465px; height: 580px; background-color: #e93f29;">
+                  
+                  <div class="card-img-overlay">
+                    <h2 class="card-title ps-5">Apple</h2>
+                    <p class="plant ps-5"><small>Plant</small>
+                      </div>
+                      <img class=" ms-4 ps-3" style="width: 80%;"src="./image/apple-card.png" class="card-img" alt="...">
+                      <a href="#" class="btn btn-danger">50 UAH / kg</a>
+              
+                 
+                </div>
+              </div>
+              
+              <div class="col">
+                <div class="card  bg-septinary text-white card-media" style="width: 465px; height: 580px;background-color:  #db4f4b;">
+                 
+                  <div class="card-img-overlay">
+                    <h2 class="card-title ps-5">Peach</h2>
+                    <p class="plant ps-5"><small>Plant</small>
+                        </div>
+                      <img class="strawberry-card  ms-4 ps-3"style="width: 80%;" src="./image/peach-card.png" class="card-img" alt="...">
+                      <a href="#" class="btn btn-danger">80 UAH / kg</a>
+              
+                
+                </div>
+              </div>
+
+                <div class="col">
+                  <div class="card   text-white card-media" style="width: 465px; height: 580px; background-color:#9b5366;">
+                        <div class="card-img-overlay">
+                      <h2 class="card-title ps-5">Plums</h2>
+                      <p class="plant ps-5"><small>Plant</small>
+                        </div>
+                        <img class="strawberry-card  ms-5 ps-3" style="width: 80%;"src="./image/plum-card.png" class="card-img" alt="...">
+                   
+                        <a href="#" class="btn btn-danger">40 UAH / kg</a>
+                
+                   
+                  </div>
+                </div>
+                
+                <div class="col">
+                  <div class="card  text-white card-media" style="width: 465px; height: 580px; background-color:#f47f4c;">
+                   
+                    <div class="card-img-overlay">
+                      <h2 class="card-title ps-5">Orange</h2>
+                      <p class="plant ps-5"><small>Plant</small>
+                      </div>
+                        <img class="strawberry-card  ms-4 ps-3" style="width: 80%;" src="./image/tangerin-card.png" class="card-img" alt="...">
+                        <a href="#" class="btn btn-danger">60 UAH / kg</a>
+                
+                  </div>
+                </div>
+                
+                <div class="col">
+                  <div class="card  text-white card-media" style="width: 465px; height: 580px; background-color:  #98b37e;">
+                    <div class="card-img-overlay">
+                      <h2 class="card-title ps-5">Kiwi</h2>
+                      <p class="plant ps-5"><small>Plant</small>
+                    </div>
+                      <img class="strawberry-card  ms-4 ps-3" style="width: 80%;" src="./image/kiwi-card.png" class="card-img" alt="...">
+                        <a href="#" class="btn btn-danger">90 UAH / kg</a>
+                
+                  </div>
+                </div>
+
+
+ 
+
+  </div>
+  <div class="d-flex justify-content-center">
+
+    <button class="order"><p class=""><svg  width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path id="Vector"
+        d="M14 2.15073L11.9259 0.0766602V10.447L1.55556 0.0766602L0 1.63222L10.3704 12.0026H0L2.07407 14.0767H14V2.15073Z"
+        fill="white" />
+    </svg>ORDER</p></button>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid fourth-section">
+  <div class="last-title d-flex justify-content-center">
+  <h1 class="text-white text-center ">FREsH HARVEST BOX HAS GOT YOU COVERED</h1>
+  </div>
+  <div class="last-subtitle  mt-5">
+  <p class="text-white text-center">Our boxes are packed with delicious, nutritious fruits and vegetables, perfect for anyone looking to eat healthier or
+  support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+</div>
+<div class="d-flex justify-content-center mt-5 pb-5 mb-5">
+  
+  <div class="mb-3 mt-5 mb-5 pb-5" >
+    <input type="email" class="form-control bg-primary"style="width: 360px;" id="exampleFormControlInput1" placeholder="Enter Email...">
+  </div>
+  <button class="btn btn-secondary text-white position-absolute start-56 mt-5 send-button " style="width: 114px; height: 50px; margin-bottom: 100px;">Send</button>
+</div>
+</div>
+
+
+<footer>
+  <div class="container-fluid mb-5">
+<div class="row align-items-center ">
+  <div class="col ms-5 ">
+
+    <img src="./image/girl with banana.png" alt="">
+    
+    <div class="row float-center mt-3  ">
+        <p class="text-primary justify-content-center d-flex align-items-center"style="font-size: 14px; font-weight:700; font-family:'DM Sans',sans-serif;"><svg style="margin-right:8px;" xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+      <path
+        d="M15.0411 0.156924H13.0364C12.4178 0.156924 11.9163 0.648347 11.9163 1.25459V3.21923C11.9163 3.82547 12.4178 4.31692 13.0364 4.31692H15.0411C15.6597 4.31692 16.1612 3.82547 16.1612 3.21923V1.25459C16.1612 0.648347 15.6597 0.156924 15.0411 0.156924Z"
+        fill="#AE1332" />
+      <path
+        d="M3.86519 11.52H1.70624C1.04005 11.52 0.5 12.0115 0.5 12.6177V14.5823C0.5 15.1886 1.04005 15.68 1.70624 15.68H3.86519C4.53138 15.68 5.07143 15.1886 5.07143 14.5823V12.6177C5.07143 12.0115 4.53138 11.52 3.86519 11.52Z"
+        fill="#AE1332" />
+      <path
+        d="M3.6248 5.79091H1.62007C1.00149 5.79091 0.5 6.28233 0.5 6.88857V8.85321C0.5 9.45945 1.0016 9.95091 1.62018 9.95091H3.6248C4.24341 9.95091 4.7449 9.45945 4.7449 8.85321V6.88857C4.7449 6.28233 4.24341 5.79091 3.6248 5.79091Z"
+        fill="#AE1332" />
+      <path
+        d="M9.38295 11.4891H7.37822C6.75964 11.4891 6.25815 11.9805 6.25815 12.5868L6.25804 14.5514C6.25804 15.1576 6.75975 15.6491 7.37833 15.6491H9.38295C10.0016 15.6491 10.5031 15.1576 10.5031 14.5514V12.5868C10.5031 11.9805 10.0016 11.4891 9.38295 11.4891Z"
+        fill="#AE1332" />
+      <path
+        d="M3.6248 0.0431361H1.62007C1.00149 0.0431361 0.5 0.534559 0.5 1.1408V3.10544C0.5 3.71168 1.0016 4.20314 1.62018 4.20314H3.6248C4.24341 4.20314 4.7449 3.71168 4.7449 3.10544V1.1408C4.7449 0.534559 4.24341 0.0431361 3.6248 0.0431361Z"
+        fill="#AE1332" />
+      <path
+        d="M9.53794 5.84874H7.53321C6.91463 5.84874 6.41314 6.34016 6.41314 6.9464V8.91104C6.41314 9.51728 6.91474 10.0087 7.53332 10.0087H9.53794C10.1566 10.0087 10.658 9.51728 10.658 8.91104V6.9464C10.658 6.34016 10.1566 5.84874 9.53794 5.84874Z"
+        fill="#AE1332" />
+      <path
+        d="M15.1667 11.4891H13.1619C12.5434 11.4891 12.0419 11.9805 12.0419 12.5868V14.5514C12.0419 15.1576 12.5435 15.6491 13.162 15.6491H15.1667C15.7853 15.6491 16.2868 15.1576 16.2868 14.5514V12.5868C16.2868 11.9805 15.7853 11.4891 15.1667 11.4891Z"
+        fill="#AE1332" />
+      <path
+        d="M9.2953 0.111854H7.29056C6.67198 0.111854 6.1705 0.603277 6.1705 1.20952V3.17416C6.1705 3.7804 6.6721 4.27185 7.29068 4.27185H9.2953C9.91391 4.27185 10.4154 3.78003 10.4154 3.17379V1.20952C10.4154 0.603277 9.91391 0.111854 9.2953 0.111854Z"
+        fill="#AE1332" />
+      <path
+        d="M15.0219 5.96291H13.0171C12.3985 5.96291 11.8971 6.45433 11.8971 7.06057V9.02521C11.8971 9.63145 12.3987 10.1229 13.0172 10.1229H15.0219C15.6405 10.1229 16.142 9.63145 16.142 9.02521V7.06057C16.142 6.45433 15.6405 5.96291 15.0219 5.96291Z"
+        fill="#AE1332" />
+    </svg>
+    
+      
+    FRESH HARVEST BOX
+  </p>
+  </div>
+  </div>
+
+
+    <div class="col"style="margin-left: 17rem; ">
+      <div class="row ">
+      <div class="col-auto" style="font-size: 14px;"> <a href="">How It Works</a></div>
+      <div class="col-auto "style="font-size: 14px;"> <a href=""> Fruits</div></a>
+     <div class="col-auto"style="font-size: 14px;"><a href=""> Contacts</div></a>
+      </div>
+    </div>
+
+      <div class="col" style="margin-left: 20rem; ">
+        <div class="row"style="margin-bottom: 2rem;">
+          
+          <div class="col-auto"><button class="icons"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Frame 52">
+              <path id="Vector"
+                d="M17.08 4.06023C17.29 4.06023 17.5 4.06023 17.92 4.06023V7.21023C17.71 7.21023 17.29 7.21023 16.87 7.21023C16.45 7.21023 16.03 7.21023 15.82 7.42023C15.61 7.63023 15.61 7.84023 15.61 8.33023C15.61 8.75023 15.61 9.03023 15.61 9.45023H17.92V12.1102H15.61V23.6602H12.04V12.0402H10.15V9.38023H12.04V8.47023C12.04 6.93023 12.25 5.81023 12.67 5.32023C13.3 4.41023 14.56 3.99023 16.45 3.99023C16.66 4.06023 16.87 4.06023 17.08 4.06023Z"
+                fill="#AE1332" />
+            </g>
+          </svg></button></div>
+
+
+          <div class="col-auto"><button class="icons"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="icons / 40x40 / instagram" opacity="0.8">
+              <path id="Vector"
+                d="M25.1279 9.41152C25.1142 8.47146 24.9401 7.53885 24.6067 6.65964C24.0233 5.15827 22.8354 3.97109 21.3315 3.38991C20.4621 3.06332 19.5428 2.88822 18.6124 2.86835C17.4158 2.81495 17.0364 2.80005 13.9988 2.80005C10.9612 2.80005 10.5719 2.80005 9.38397 2.86835C8.45478 2.88822 7.53554 3.06332 6.66606 3.38991C5.1622 3.97109 3.97304 5.15827 3.3909 6.65964C3.06375 7.52767 2.88712 8.44538 2.86971 9.37302C2.81622 10.5689 2.80005 10.9477 2.80005 13.9802C2.80005 17.0127 2.80005 17.4002 2.86971 18.5873C2.88837 19.5162 3.06375 20.4327 3.3909 21.3032C3.97428 22.8033 5.1622 23.9905 6.66731 24.5717C7.53306 24.9095 8.45229 25.1007 9.38521 25.1305C10.5831 25.1839 10.9625 25.2001 14.0001 25.2001C17.0376 25.2001 17.427 25.2001 18.6149 25.1305C19.5441 25.1119 20.4633 24.9368 21.334 24.6102C22.8379 24.0278 24.0258 22.8406 24.6092 21.3405C24.9363 20.4712 25.1117 19.5547 25.1304 18.6246C25.1839 17.43 25.2001 17.0512 25.2001 14.0174C25.1976 10.9849 25.1976 10.5999 25.1279 9.41152ZM13.9913 19.7149C10.8144 19.7149 8.24083 17.1456 8.24083 13.974C8.24083 10.8024 10.8144 8.23302 13.9913 8.23302C17.1658 8.23302 19.7419 10.8024 19.7419 13.974C19.7419 17.1456 17.1658 19.7149 13.9913 19.7149ZM19.9707 9.35936C19.2281 9.35936 18.6298 8.7608 18.6298 8.02067C18.6298 7.28055 19.2281 6.68199 19.9707 6.68199C20.7108 6.68199 21.3104 7.28055 21.3104 8.02067C21.3104 8.7608 20.7108 9.35936 19.9707 9.35936Z"
+                fill="#AE1332" />
+              <path id="Vector_2"
+                d="M13.9931 17.4789C15.9281 17.4789 17.4966 15.9104 17.4966 13.9754C17.4966 12.0405 15.9281 10.4719 13.9931 10.4719C12.0582 10.4719 10.4896 12.0405 10.4896 13.9754C10.4896 15.9104 12.0582 17.4789 13.9931 17.4789Z"
+                fill="#AE1332" />
+            </g>
+          </svg></button>
+
+
+</div>
+          <div class="col-auto"><button class="icons">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Frame 60" opacity="0.8">
+              <path id="Vector" fill-rule="evenodd" clip-rule="evenodd"
+                d="M21.21 5.24986C20.02 5.17986 17.57 5.10986 13.86 5.10986H13.37C9.80004 5.10986 7.42007 5.17986 6.23007 5.31986C4.62007 5.45986 3.50004 5.87986 2.87004 6.43986C2.31004 6.92986 1.89005 7.83986 1.75005 9.02986C1.68005 9.79986 1.61005 11.4099 1.61005 13.8599V14.2099C1.61005 16.5199 1.68004 18.1299 1.82004 18.8999C2.03004 20.0199 2.38007 20.8599 3.08007 21.3499C3.78007 21.9099 4.97005 22.2599 6.65005 22.3999C7.84005 22.4699 10.2901 22.5399 14.0001 22.5399H14.4901C18.0601 22.5399 20.4401 22.4699 21.6301 22.3299C23.2401 22.1899 24.3601 21.7699 24.9901 21.2099C25.5501 20.7199 25.97 19.8099 26.11 18.6199C26.18 17.8499 26.2501 16.2399 26.2501 13.7899V13.4399C26.2501 11.1299 26.1801 9.51986 26.0401 8.74986C25.8301 7.62986 25.4801 6.78986 24.7801 6.29986C24.0801 5.73986 22.89 5.38986 21.21 5.24986ZM18.4801 13.8599L10.7801 18.4799V9.23986L18.4801 13.8599Z"
+                fill="#AE1332" />
+            </g>
+          </svg></button>
+</div>
+        </div>
+        <div class="row text-primary  mb-4 "style="font-size: 18px; font-family:'DM Sans',sans-serif;">+380 (68) 443-94-26</div>
+          <div class="row text-primary " style="width: 180px;font-size: 18px; font-family:'DM Sans',sans-serif;">1678 S. Pioneer Road salt Lake City UT 84104</div>
+     
+
+
+</div>
+</div>
+
+</footer>
+<script src="js/pop.up.js"></script>
+  <script src="js/bootstrap.bundle.js"> </script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
